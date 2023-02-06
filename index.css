@@ -1,0 +1,33 @@
+.front{
+    background-image: url("./image/collageImg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+}
+.navbar{
+background-color: #0c274d;
+justify-content: center !important;
+gap: 32px;
+}
+.navbarClgName h2{
+    color: white;
+}
+.navbarClgName p{
+    color:#bfbd22;
+}
+.links a{
+    /* color: white; */
+    font-weight: 700;
+    text-decoration: none;
+}
+.links{
+    gap: 80px;
+    justify-content: center;
+    padding: 16px 0;
+}
+.aboutUS h1{
+    color: #0c274d;
+}
+.aboutUS{
+    padding: 20px;
+}
