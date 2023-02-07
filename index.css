@@ -1,24 +1,39 @@
+body{
+    font-family: 'Lato', sans-serif !important;
+}
 .front{
-    background-image: url("./image/collageImg.png");
+    /* background-image: url("./image/collageImg.png"); */
     background-repeat: no-repeat;
     background-size: cover;
-    height: 110vh;
+    /* height: 110vh; */
+}
+.front img{
+    width: 100%;
+}
+img{
+    max-width: 100%;
 }
 .navbar{
 background-color: #0c274d;
 justify-content: center !important;
-gap: 32px;
+/* gap: 32px; */
 }
 .navbarClgName h2{
     color: white;
+    margin: 0;
 }
 .navbarClgName p{
     color:#bfbd22;
+    margin: 0;
 }
-.links a{
-    /* color: white; */
+.links ul li a{
+    color: white;
     font-weight: 700;
     text-decoration: none;
+    /* border-right: 1px solid;
+    padding-right: 50px;
+    height: 20px;
+    padding-bottom: 26px; */
 }
 .links{
     gap: 80px;
@@ -31,3 +46,381 @@ gap: 32px;
 .aboutUS{
     padding: 20px;
 }
+.latestUL ul li{
+    font-size: 20px;
+}
+.robotics p{
+    margin: 0;
+}
+.robotics p:first-child{
+    font-size: 20px;
+    line-height: 20px;
+}
+.robotics p:last-child{
+    font-size: 16px;
+    text-align: start;
+}
+.date{
+    padding: 0px 10px; gap: 42px;
+}
+.date-para{
+    border-radius: 32px; 
+    padding: 20px;
+    background-color: #fad60c; 
+    margin-bottom: 0;
+    margin: 4px 0;
+}
+.insdustry p{
+    font-size: 20px;
+    color:#0c274d
+}
+.header{
+    display: grid !important;
+    justify-content: space-between !important;
+    padding: 6px !important;
+}
+.clgLogo{
+    gap: 20px;
+    justify-content: center;
+}
+.links ul{
+    gap:36px;
+}
+.toogle-btn{
+    border-color: white !important;
+    width: fit-content;
+}
+.abtUsDiv{
+    gap: 30px;
+}
+.abtUsPara p{
+    font-size: 28px;
+}
+.read a{
+    color:#0c274d; 
+    text-decoration: none; 
+    font-size: 20px; 
+    font-weight: 700;
+}
+.facilities h2{
+    color:#0c274d; 
+    font-size: 60px;
+}
+.facilitiesRow{
+    margin-top: 3rem;
+}
+.whyCRR{
+    margin-top:3rem;
+}
+.whyCRRCards{
+    background-color: #0c274d; 
+    border-radius: 8px; 
+    padding: 40px;
+}
+.whyCRRCards h3{
+    font-size: 30px; 
+    font-weight: 700;
+}
+.whyCRRCards p{
+    font-size: 24px;
+}
+.latest{
+    font-weight: 600; 
+    background-color:#f0efe9;
+    margin: 3rem 0;
+}
+.latestRow{
+    padding: 40px 100px 70px;
+}
+.latestUL ul{
+    padding: 44px;
+     background-color: #fad60c; 
+     border-radius: 26px; 
+     height: 100%;
+}
+.insdustry p{
+    margin-bottom: 3rem;
+}
+.insdustry h1{
+    color:#0c274d;
+    margin-top: 3rem;
+    margin-bottom: 0;
+}
+.industryPara{
+    color:#0c274d ; 
+    font-size: 22px; 
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+.insRow{
+    margin-bottom: 3rem;
+}
+.insdustryHead{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+.industryPara{
+    margin-bottom: 0px !important;
+}
+.crrfooter h1{
+    font-size: 46px;
+}
+.crrfooter p{
+    font-size: 18px;
+}
+@media(max-width:767px){
+    .navbarClgName h2{
+        font-size: 18px;
+    }
+    .navbarClgName p{
+        font-size: 12px;
+    }
+    .clgLogo img{
+        width: 26%;
+    }
+    .clgLogo {
+        gap: 10px;
+        justify-content: normal;
+    }
+    .header{
+        display: flex !important;
+    }
+    .anchor{
+        margin-right: 0 !important;
+    }
+    .front{
+        height: auto;
+    }
+    .aboutUS {
+        padding: 10px;
+    }
+    .aboutUS h1{
+        font-size: 24px;
+    }
+    .abtUsDiv img{
+        width: 100% !important;
+    }
+    .abtUsDiv{
+        flex-wrap: wrap;
+    }
+    .abtUsPara p{
+        font-size: 14px;
+    }
+    .read a{
+        float: left !important;
+    }
+    .facilities h2{
+        font-size: 28px;
+    }
+    .facilities{
+        margin-top: 10px;
+    }
+    .facilitiesRow{
+        gap: 10px;
+        margin-top: 1rem !important;
+    }
+    .whyCRR{
+        margin-top:2rem;
+    }
+    .whyCRR h1{
+        font-size: 28px;
+    }
+    .whyCRRrow{
+        gap: 10px;
+    }
+    .whyCRRCards h3{
+        font-size: 24px;
+    }
+    .whyCRRCards p{
+        font-size: 20px;
+    }
+    .robotics p:first-child{
+        font-size: 16px;
+    }
+    .robotics p:last-child{
+        font-size: 12px;
+    }
+    .date-para{
+        border-radius: 20px;
+        padding: 12px;
+        font-size: 12px;
+    }
+    .date{
+        gap: 14px;
+    }
+    .latestRow{
+        padding: 8px;
+        gap: 10px;
+        max-width: 100%;
+    margin-left: 0 !important;
+    }
+    .latestUL ul{
+        /* padding: 24px; */
+    }
+    .latestUL ul li{
+        font-size: 16px;
+    }
+    .insdustry h1{
+        font-size: 24px;
+    }
+    .insdustry p{
+        font-size: 18px;
+    }
+    .insdustry p{
+        margin-bottom: 2rem;
+    }
+    .insRow {
+        margin-bottom: 1rem;
+    }
+    .mail{
+        margin-top: 1rem;
+    }
+    .crrfooter h1{
+        font-size: 32px;
+        margin-bottom: 2px;
+    }
+    .abtUsDiv img{
+        max-width: 490px;
+    }
+}
+@media(min-width:768px) and (max-width:992px){
+ .header{
+    display: flex !important;
+ }
+ .navbarClgName h2{
+    font-size: 24px;
+ }
+ .navbarClgName p{
+    font-size: 16px;
+ }
+ .abtUsPara p{
+    font-size: 20px;
+ }
+ .abtUsDiv img{
+    height: 214px;
+ }
+ .facilities h2{
+    font-size: 36px;
+    margin-bottom: 1.5rem;
+ }
+ .whyCRRCards h3{
+    font-size: 20px;
+ }
+ .whyCRRCards p{
+    font-size: 16px;
+ }
+ .latestRow{
+    max-width: 100%;
+    padding: 20px;
+    margin-left: 0 !important;
+ }
+ .date{
+    gap: 18px;
+ }
+ .robotics p:first-child{
+    font-size: 18px;
+    line-height: 18px;
+ }
+ .robotics p:last-child{
+    font: 14px;
+ }
+ .latestUL ul{
+    padding-top: 18px !important;
+ }
+ .latestUL ul li{
+    font-size: 18px;
+ }
+ .latest h1{
+    font-size: 36px;
+ }
+ .insdustry h1{
+    font-size: 36px;
+ }
+}
+@media(min-width:993px) and (max-width:1380px){
+    .header{
+        justify-content: center !important;
+    }
+    .navbarClgName h2{
+        font-size: 28px;
+    }
+    .navbarClgName p{
+        font-size: 18px;
+    }
+    .aboutUS h1{
+        font-size: 28px;
+    }
+    .abtUsPara p{
+        font-size: 22px;
+    }
+    .abtUsDiv img{
+        height: 230px;
+    }
+    .facilities h2{
+        font-size: 42px;
+        margin-bottom: 1rem;
+    }
+    .whyCRRCards h3{
+        font-size: 24px;
+    }
+    .whyCRRCards p{
+        font-size: 20px;
+    }
+    .latestRow{
+        max-width: 100%;
+    margin-left: 0;
+    padding: 40px 50px 70px;
+    }
+    .latestUL ul li{
+        font-size: 18px;
+    }
+    .robotics p:first-child{
+        font-size: 18px;
+    }
+    .robotics p:last-child{
+        font-size: 14px;
+    }
+    .date{
+        gap: 24px;
+    }
+    .crrfooter h1{
+        font-size: 30px;
+    }
+    .crrfooter p{
+        font-size: 16px;
+    }
+    .quick{
+        font-size: 19px;
+    }
+}
+@media(min-width:1381px) and (max-width:1980px){
+.header{
+    display: flex !important;
+    padding: 20px !important;
+}
+.navbarClgName h2{
+    font-size: 30px;
+}
+.navbarClgName p{
+    font-size: 22px;
+}
+.links ul{
+    gap: 30px;
+}
+.aboutUS h1{
+    font-size: 36px;
+}
+.abtUsPara p{
+    font-size: 30px;
+}
+.abtUsDiv img{
+    height: 300px;
+}
+.facilities h2{
+    font-size: 48px;
+    margin-bottom: 1rem;
+}
+}
+
